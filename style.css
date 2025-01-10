@@ -1,0 +1,47 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.pri-btn{
+    padding: 17px 34px;
+    border: none;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.pri-btn:hover{
+    background-color: #009a74;
+}
+.nav {
+    height: 100px;
+    background-color: rgb(249, 252, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-h1 {
+    margin-right: 50px;
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.nav-btn {
+    margin-top: 24px;
+    margin-left: 50px;
+    border-radius: 8px;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+}
+.nav-btn:hover{
+    background-color: #e5f9f2;
+}
+.cont1-h3{
+    font-size: 24px;
+}
