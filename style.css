@@ -251,3 +251,89 @@ body {
     display: block;
     margin-bottom: 10px;
 }
+.donate-h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.donate-p{
+    text-align: center;
+    font-size: 18px;
+}
+.amount{
+    display: flex;
+}
+.tk-amount{
+    padding: 40px;
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: white;
+    margin: 30px;
+    border-radius: 24px;
+    border: 0.2px solid rgba(188, 187, 187, 0.495);
+}
+.tk-amount:hover{
+    background-color: rgba(199, 250, 242, 0.29);
+}
+.tk1{
+    margin-left: 120px;
+}
+.tk-amount-custom{
+    width: 1032px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: white;
+    margin: 30px;
+    border-radius: 6px;
+    border: 0.2px solid rgba(188, 187, 187, 0.495);
+    text-align: center;
+    margin-left: 135px;
+}
+.done-btn{
+    display: flex;
+    justify-content: center;
+}
+.sub_news{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    width: 1280px;
+    height: 395px;
+    margin-top: 50px;
+    margin-left: 45px;
+    text-align: center;
+}
+.sub_h1{
+    padding:50px 0px;
+}
+.sub_para{
+    margin: 0px;
+    padding: 0px;
+}
+.email{
+    width: 600px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: white;
+    margin: 30px;
+    border-radius: 8px 0px 0px 8px;
+    border: 0.2px solid rgba(188, 187, 187, 0.495);
+    text-align: center;
+    margin-left: 135px;
+    margin-right: 0px;
+}
+.sub_btn{
+    border-radius:0px 8px 8px 0px;
+    margin-left: 0px;
+}
+.foot-h2{
+    margin-top: 100px;
+    text-align: center;
+}
+.last-img{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
