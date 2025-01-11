@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(239, 246, 253);
+}
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -16,13 +19,13 @@
 }
 .nav {
     height: 100px;
-    background-color: rgb(249, 252, 255);
+    background-color: rgb(240, 247, 253);
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center
 }
 .nav-h1 {
-    margin-right: 50px;
+    margin-left: 50px;
     margin-top: 24px;
     font-size: 32px;
     font-weight: bold;
@@ -30,7 +33,7 @@
 }
 .nav-btn {
     margin-top: 24px;
-    margin-left: 50px;
+    margin-right:50px;
     border-radius: 8px;
     padding: 15px 30px;
     border: 1px solid #006A50;
@@ -44,4 +47,139 @@
 }
 .cont1-h3{
     font-size: 24px;
+    color: #676767;
+    margin-top: 80px;
+}
+.hero-header{
+    display: flex;
+    justify-content: center;
+    background-color:#C6E4D6;
+    border-radius: 24px;
+    width: 1280px;
+    height: 560px;
+    margin: 0px 40px;
+}
+.cont1-para{
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.header-img{
+    height: 400px;
+    width: 474px;
+    margin-top: 80px;
+    margin-left: 64px;
+}
+.vision-header1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 80px 40px 24px 40px;
+}
+.vision-para{
+    color: #676767;
+    font-size: 16px;
+    margin: 0px 40px;
+}
+.vision-box-main{
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+    justify-content: center;
+}
+.vision-box-1{
+    background-color: #5c97fd52;
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+}
+.vision-box-2{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+}
+.vision-box-3{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+}
+.vision-box-icon{
+    padding: 32px;
+    width: 62px;
+    height: 62px;
+}
+.v-b-h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+.v-b-p{
+    margin-left: 32px;
+    text-align: left;
+}
+.v-b-3-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #FFC239;
+    color: white;
+    padding: 11px 20px;
+    margin-left: 32px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.v-b-3-btn:hover{
+    background-color: #f4ae0c;
+}
+.v-b-2-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #09A15C;
+    color: white;
+    padding: 11px 20px;
+    margin-left: 32px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.v-b-2-btn:hover{
+    background-color: #057744;
+}
+.v-b-1-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #5490F5;
+    color: white;
+    padding: 11px 20px;
+    margin-left: 32px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.v-b-1-btn:hover{
+    background-color: #2571f4;
+}
+.quote{
+    border-radius: 16px;
+    border: 0.2px solid rgba(204, 204, 204, 0.925);
+    margin-top: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.q-p{
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.q-h2{
+    margin-left: 30px;
+}
+.q-titte{
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-bottom: 30px;
 }
